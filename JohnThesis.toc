@@ -1,1 +1,2 @@
-\contentsline {chapter}{\numberline {\rm 1}\rm Background: Basic Particle Physics and CERN}{1}{chapter.1}
+\contentsline {chapter}{\numberline {\rm 1}\rm Basic Particle Physics and CERN}{1}{chapter.1}
+\contentsline {chapter}{\numberline {\rm 2}\rm Large Hadron Collider and Compact Muon Solenoid}{6}{chapter.2}
