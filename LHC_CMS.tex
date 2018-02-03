@@ -6,7 +6,7 @@ The process the Large Hadron Collider (LHC) uses sounds simple when put into com
 % Some figure showing the CERN accelerator complex?
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{acceleratorcomplex.jpg}
+\includegraphics[width=0.8\linewidth]{Figures/acceleratorcomplex.jpg}
 \caption{Chain of accelerators feeding into the LHC}
 \label{fig:acceleratorcomplex}
 \end{figure}
@@ -16,10 +16,10 @@ When the LHC has accelerated its particles to its peak energy it collides the pa
 \section{The CMS Detector}
 The CMS detector is designed to detector particles coming out of the proton-proton collisions supplied by the LHC. As many different types of particles come out of these collisions the CMS detector is split up into several different sub-detectors. Going from the closest to the collision point outward, first is the silicon tracker. This is responsible for measuring the total energy of the particles in the detector which is important for reconstructing the events using conservation of energy. Next is the Electromagnetic Calorimeter which is responsible for detecting a myriad of charged particles such as photon, and electrons. Then there is the Hadron Calorimeter which is responsible for detector hadrons, which are particles made up of quarks, such as protons neutrons and pions. These calorimeters work by covering the possible directions out of the collision with scintillator tiles. When the particles hit these tiles they lose some of their energy depositing light proportional to the energy of the particle. The particle will eventually stop having lost all of its energy giving us a reading on its total energy. Finally, are the muon chambers. Muons are interesting particles because while they are heavy particles that will decay they have long enough lifetimes to make it through the detector. In addition, they tend to not be stopped by the detector like the two prior calorimeters almost always stop the particles they detect. Since there is a magnetic field encompassing the detector and the muons have a charge they will curve as they pass through the muon chambers. While not completely stopping the muons will give a reading in the chambers showing its path of travel. By measuring the curve of this path of travel we can measure the momentum. By combining the the data from all the different sub detectors we can get a picture of almost all of the particles that came out of the collision. There are exceptions such as neutrinos which tend to pass through anything leaving no trace. Nevertheless we are able to use this to recreate what exactly came out of the collision, which allows us to find evidence of particles like the top quark which decays so quickly it does not even make it to the detector.
 
-% CMS detector layout
+% change to different picture
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{CMSlayout.jpg}
+\includegraphics[width=\linewidth]{Figures/CMSlayout.jpg}
 \caption{A slice of the CMS detector highlighting the different sub-detectors and showing different particles and where they are stopped}
 \label{fig:CMSlayout}
 \end{figure}
@@ -29,17 +29,17 @@ One of the main jobs of the calorimeter is to measure the energy of the of the i
 
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{Tile.png}
+\includegraphics[width=0.6\linewidth]{Figures/Tile.png}
 \caption{A picture of a scintillator tile with the optical fiber around the edges.}
 \label{fig:Tile}
 \end{figure}
 
-There are three main section to the HCAL. There is the Hadron Barrel (HB), which surrounds the beam-line like the edge of a cylinder, the Hadron End-cap (HE), which caps off the cylinder made by HB. These two parts make a cylinder which has the beam-line going through the center and the collision point in the center. Lastly there is the Hadron Front-cap (HF) which is shaped like HE but is located much further away from the collision point closer to the Muon chamber distance. To describe the geometry of the detector we use a coordinate system related to spherical coordinates with the origin being the collision point and polar angle of 0 being along the beam-line. Phi is the azimuthal angle and Eta is related to the polar angle by $\eta = -ln(tan(\theta/2))$ which gives a value of 0 perpendicular to the beam-line and $\pm\infty$ along the beam-line. Usually these coordinates are arranged into discrete integers values denoted iphi and ieta, which are arranged such that a scintialltor tile covers one ieta and one iphi as shown in figure~\ref{fig:Depth} but there are exception to this. For the distance from the beam-line depth is used which is also a discrete value but there are often more than one scintillator tiles in a single depth. 
+There are three main section to the HCAL. There is the Hadron Barrel (HB), which surrounds the beam-line like the edge of a cylinder, the Hadron End-cap (HE), which caps off the cylinder made by HB. These two parts make a cylinder which has the beam-line going through the center and the collision point in the center. Lastly there is the Hadron Front-cap (HF) which is shaped like HE but is located much further away from the collision point closer to the Muon chamber distance. To describe the geometry of the detector we use a coordinate system related to spherical coordinates with the origin being the collision point and polar angle of 0 being along the beam-line. Phi is the azimuthal angle and Eta is related to the polar angle by $\eta = -\ln(\tan(\theta/2))$ which gives a value of 0 perpendicular to the beam-line and $\pm\infty$ along the beam-line. Usually these coordinates are arranged into discrete integers values denoted iphi and ieta, which are arranged such that a scintialltor tile covers one ieta and one iphi as shown in figure~\ref{fig:Depth} but there are exception to this. For the distance from the beam-line depth is used which is also a discrete value but there are often more than one scintillator tiles in a single depth. 
 
 % HCAL layouts
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{Depthsegmentation.pdf}
+\includegraphics[width=\linewidth]{Figures/Depthsegmentation.pdf}
 \caption{Layout of the HCAL showing a single iphi slice of HE HB and HF. Each box represents a scintillator tile}
 \label{fig:Depth}
 \end{figure}
@@ -49,7 +49,7 @@ There are several factors that contribute to SiPM non-linearity but the two main
 
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{SiPM.jpg}
+\includegraphics[width=\linewidth]{Figures/SiPM.jpg}
 \caption{A picture of a Silicon Photomultiplier}
 \label{fig:SiPM}
 \end{figure}
@@ -59,7 +59,7 @@ SiPMs are one of the main features of new electronics that are being installed i
 
 Because we are looking for statistical in the data we need to take a lot of data. This means we take runs with several thousand events or particle hitting the test stand and take several of these runs to ensure high statistics. On the other hand this means we want o minimize the amount of information stores per event so we can store a lot of them. One of the key systems that helps this is the trigger system. In the path of the beam before the test stand we put scintillator tiles not designed to stop the particle entire but rather to send a generic signal to the control room. A total of four tiles were placed in the path of the beam. When we saw signals from these tiles we know that a particle is coming from the beam. This serves as our trigger signal. The trigger signal then goes to the back-end electronics that stores the data from the detector. In this way we only store data coming during the short amount of time on the order of 25 nanoseconds when we know their is relevant information coming. There is also a ready signal that goes from the back-end electronics to the trigger. Since a particle may come before the back-end electronics are finished storing the relevant data a trigger signal that comes without the ready signal will simply be ignored.
 
-Although built to be similar to the HCAL on the CMS detector the test stand is smaller and has some differences. When looking at the data from the teat beam it is important to be sure that the e-map, which traces the channels that receive the data to the actual scintillator tiles on the detector, is correct. To account for the difference between the test stand and the HCAL a new e-map needed to be created. With an accurate e-map we can create an accurate picture of the incident particles hitting the test stand. The test beam allows us to control the energy and type of particles incident on the test stand. This allows us to study things like SiPM non-linearity as we can look at the output of the SiPMs under something like $50 GeV$ pions then increase to energy to something like $150 GeV$ and compare the different responses. However the particle does not deposit its energy in a single scintillator tile. For something like a pion it will lose a part of its energy with each scintillator tile it hits and eventually be stopped by the detector but its total energy will be spread throughout the detector. Since each particle in the beam has roughly the same energy and we can isolate the event of a single particle hitting the detector we are to find energy lost in each scintillator tile but looking at the complete picture of the detector. 
+Although built to be similar to the HCAL on the CMS detector the test stand is smaller and has some differences. When looking at the data from the teat beam it is important to be sure that the e-map, which traces the channels that receive the data to the actual scintillator tiles on the detector, is correct. To account for the difference between the test stand and the HCAL a new e-map needed to be created. With an accurate e-map we can create an accurate picture of the incident particles hitting the test stand. The test beam allows us to control the energy and type of particles incident on the test stand. This allows us to study things like SiPM non-linearity as we can look at the output of the SiPMs under something like $50 \GeV$ pions then increase to energy to something like $150 \GeV$ and compare the different responses. However the particle does not deposit its energy in a single scintillator tile. For something like a pion it will lose a part of its energy with each scintillator tile it hits and eventually be stopped by the detector but its total energy will be spread throughout the detector. Since each particle in the beam has roughly the same energy and we can isolate the event of a single particle hitting the detector we are to find energy lost in each scintillator tile but looking at the complete picture of the detector. 
 
 SiPM non-linearity is not the only thing that is being researched using the test beam. In the CMS detector particles come so fast that the signals of individual particles blend together. In the test beam the particles are more spread out so it is easier to isolate the signal of individual particles. This makes it easier to extract the pulse shape of the readout modules which is the shape of the output charge vs time. It is also important to see if the pulse shape changes significantly under different circumstances such as higher or lower energies. Using the pulse shape of the readout modules we can then extract the individual signals in the CMS detector.
 
@@ -70,7 +70,7 @@ Since the program can simulate the non-linearity effects of the SiPM, we can use
 
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{Y11.png}
+\includegraphics[width=\linewidth]{Figures/Y11.png}
 \caption{A graph of the Y11 pulse shape with nanoseconds on the x axis and number of incident photons on the y axis}
 \label{fig:Y11}
 \end{figure}

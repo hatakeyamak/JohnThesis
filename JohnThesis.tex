@@ -7,6 +7,13 @@
 \usepackage{lipsum} 
 \usepackage{hyperref}  
 \usepackage{bookmark}
+\usepackage{xspace}
+
+%% set up aliases
+\newcommand{\GeVc}{\ensuremath{{\,\text{Ge\hspace{-.08em}V\hspace{-0.16em}/\hspace{-0.08em}}c}}\xspace}
+\newcommand{\GeVcc}{\ensuremath{{\,\text{Ge\hspace{-.08em}V\hspace{-0.16em}/\hspace{-0.08em}}c^\text{2}}}\xspace}
+\newcommand{\MeVcc}{\ensuremath{{\,\text{Me\hspace{-.08em}V\hspace{-0.16em}/\hspace{-0.08em}}c^\text{2}}}\xspace}
+\newcommand{\GeV}{\ensuremath{{\,\text{Ge\hspace{-.08em}V\hspace{-0.16em}}}\xspace}}
 
 \title{Title Filler}
 \titleCaps{TITLE FILLER}
@@ -42,5 +49,9 @@
 \chapter{Large Hadron Collider and Compact Muon Solenoid}
 \label{chap:LHC_CMS}
 \input{LHC_CMS}
+
+\chapter{Analysis}
+\label{chap:ana}
+\input{SimAna}
 
 \end{document}
