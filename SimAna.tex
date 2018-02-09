@@ -23,3 +23,12 @@ Using the simulation we can also look at the pulse shape of the SiPM. One of the
 \end{figure}
 
 %I have plots for this analysis but I am not quite sure how to show it. I have plots showing normalized output pulses of different input energies and log plots of them but I am not sure of the best way to showcase it. Is there a numerical analysis to show how close they are?
+
+One effect of the saturation that is less understood and harder to implement is that the pixels can sometimes recharge faster. This effect is due to the QIE chips in the readout modules which in addition to taking and processing the charge from the SiPMs also supply the charge that recharges the capacitors for each individual pixel. The capacitors for the pixels recharge exponentially just like normal RC circuits. Normally the time constant for the capacitors is about 9ns which means the capacitor is basically completely charges after 20ns but this is when the SiPM is outputting a very low amount of charge to the QIE chips. When the SiPM is outputting more charge the QIE chips then supply more charge to the SiPM recharging the pixels faster. When the pixels recharge fast they will fire off closer to their maximum charge even when hit in rapid succession. This means as saturation becomes more prevalent with a high number of incident photons this reduces the effects of saturation. The effect of different recharge time for the pixels can be see in figure~\ref{fig:trc}.
+
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth]{Figures/p10000trc.pdf}
+\caption{Output pulses of the SiPM simulation with 10000 incidents photons comparing the effect of changing the recharge time constant on the pixels. The TRC value is the recharge time constant.}
+\label{fig:trc}
+\end{figure}
