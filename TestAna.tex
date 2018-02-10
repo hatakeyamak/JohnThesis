@@ -36,5 +36,14 @@ One of the key things in doing a pulse shape analysis using test beam data is th
 \label{fig:PulSh}
 \end{figure}
 
-There is also the trigger information. This timing information comes from the test beam equipment that signals the back end electronics to store the data from the readout modules. 
+There is also the trigger information. This timing information comes from the test beam equipment that signals the back end electronics to store the data from the readout modules. The trigger information theoretically does not have the same discrepancy as TDC information but most people still use the TDC from the QIE chips. The relationship between the two signals can be shown in figure~\ref{fig:tdc}.
+
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth]{Figures/zoom.pdf}
+\caption{A histogram showing the statistical relationship between the trigger timing information and the QIE TDC information.}
+\label{fig:tdc}
+\end{figure}
+
+%I think I have a good idea of what is going in these plots and testbeam itself but I am lacking in actual analysis results. I guess may main question at this point is how do we get from these plots to things like a non-linear correction curve or a pulse shape.
 
