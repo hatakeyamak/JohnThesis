@@ -4,8 +4,9 @@
 \contentsline {section}{\numberline {2.2}The CMS Detector}{8}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Hadron Calorimeter}{9}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Silicon Photomultipliers}{12}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}Test Beam}{13}{section.2.3}
-\contentsline {section}{\numberline {2.4}SiPM simulation}{16}{section.2.4}
-\contentsline {chapter}{\numberline {\rm 3}\rm Analysis}{18}{chapter.3}
-\contentsline {section}{\numberline {3.1}SiPM Simulation Analysis}{18}{section.3.1}
-\contentsline {section}{\numberline {3.2}Test Beam Analysis}{20}{section.3.2}
+\contentsline {chapter}{\numberline {\rm 3}\rm Test Beam}{14}{chapter.3}
+\contentsline {section}{\numberline {3.1}Test Beam Setup}{14}{section.3.1}
+\contentsline {section}{\numberline {3.2}Test Beam Analysis}{16}{section.3.2}
+\contentsline {chapter}{\numberline {\rm 4}\rm SiPM Simulation}{22}{chapter.4}
+\contentsline {section}{\numberline {4.1}SiPM Simulation}{22}{section.4.1}
+\contentsline {section}{\numberline {4.2}Simulation Analysis}{23}{section.4.2}

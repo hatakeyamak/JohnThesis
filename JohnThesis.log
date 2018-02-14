@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.9.8)  9 FEB 2018 20:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.9.8)  14 FEB 2018 08:21
 entering extended mode
 **./JohnThesis.tex
 (JohnThesis.tex
@@ -453,7 +453,7 @@ Chapter 1
 (intro.tex [1
 
 
-] [2] [3] [4] <Figures/higgsmeasurement.png, id=65, 1185.42876pt x 1151.30125pt>
+] [2] [3] [4] <Figures/higgsmeasurement.png, id=67, 1185.42876pt x 1151.30125pt>
 File: Figures/higgsmeasurement.png Graphic file (type png)
 
 <use Figures/higgsmeasurement.png>
@@ -462,7 +462,7 @@ Package pdftex.def Info: Figures/higgsmeasurement.png used on input line 56.
 ) [5] [6 <./Figures/higgsmeasurement.png>]
 **************************
 Chapter 2
-(LHC_CMS.tex <Figures/acceleratorcomplex.jpg, id=79, 2125.9425pt x 1619.04875pt>
+(LHC_CMS.tex <Figures/acceleratorcomplex.jpg, id=81, 2125.9425pt x 1619.04875pt>
 File: Figures/acceleratorcomplex.jpg Graphic file (type jpg)
  <use Figures/acceleratorcomplex.jpg>
 Package pdftex.def Info: Figures/acceleratorcomplex.jpg used on input line 9.
@@ -470,109 +470,115 @@ Package pdftex.def Info: Figures/acceleratorcomplex.jpg used on input line 9.
 
 [7
 
-] [8 <./Figures/acceleratorcomplex.jpg>] <Figures/CMSlayout.jpg, id=90, 633.11531pt x 376.40625pt>
+] [8 <./Figures/acceleratorcomplex.jpg>] <Figures/CMSlayout.jpg, id=92, 633.11531pt x 376.40625pt>
 File: Figures/CMSlayout.jpg Graphic file (type jpg)
 
 <use Figures/CMSlayout.jpg>
 Package pdftex.def Info: Figures/CMSlayout.jpg used on input line 22.
 (pdftex.def)             Requested size: 433.62pt x 257.808pt.
- [9] [10 <./Figures/CMSlayout.jpg>] <Figures/Tile.png, id=101, 267.24844pt x 255.95625pt>
+ [9] [10 <./Figures/CMSlayout.jpg>] <Figures/Tile.png, id=103, 267.24844pt x 255.95625pt>
 File: Figures/Tile.png Graphic file (type png)
 
 <use Figures/Tile.png>
 Package pdftex.def Info: Figures/Tile.png used on input line 32.
 (pdftex.def)             Requested size: 260.17464pt x 249.20677pt.
- [11 <./Figures/Tile.png>] <Figures/Depthsegmentation.pdf, id=109, 775.0671pt x 426.14043pt>
+ [11 <./Figures/Tile.png>] <Figures/Depthsegmentation.pdf, id=111, 775.0671pt x 426.14043pt>
 File: Figures/Depthsegmentation.pdf Graphic file (type pdf)
 
 <use Figures/Depthsegmentation.pdf>
 Package pdftex.def Info: Figures/Depthsegmentation.pdf used on input line 42.
 (pdftex.def)             Requested size: 433.62pt x 238.40942pt.
  [12 <./Figures/Depthsegmentation.pdf>]
-<Figures/SiPM.jpg, id=134, 406.1574pt x 158.994pt>
+<Figures/SiPM.jpg, id=136, 406.1574pt x 158.994pt>
 File: Figures/SiPM.jpg Graphic file (type jpg)
  <use Figures/SiPM.jpg>
 Package pdftex.def Info: Figures/SiPM.jpg used on input line 52.
 (pdftex.def)             Requested size: 433.62pt x 169.74342pt.
- [13 <./Figures/SiPM.jpg>] [14] [15] [16]
-<Figures/Y11.png, id=153, 689.4558pt x 239.4546pt>
-File: Figures/Y11.png Graphic file (type png)
- <use Figures/Y11.png>
-Package pdftex.def Info: Figures/Y11.png used on input line 73.
-(pdftex.def)             Requested size: 433.62pt x 150.60143pt.
-) [17 <./Figures/Y11.png>]
+) [13 <./Figures/SiPM.jpg>]
 **************************
 Chapter 3
-(SimAna.tex <Figures/SimNon.png, id=160, 557.4426pt x 272.217pt>
-File: Figures/SimNon.png Graphic file (type png)
- <use Figures/SimNon.png>
-Package pdftex.def Info: Figures/SimNon.png used on input line 7.
-(pdftex.def)             Requested size: 433.62pt x 211.75102pt.
+(TestAna.tex [14
 
-<Figures/SimPul.png, id=161, 638.385pt x 247.6452pt>
-File: Figures/SimPul.png Graphic file (type png)
- <use Figures/SimPul.png>
-Package pdftex.def Info: Figures/SimPul.png used on input line 18.
-(pdftex.def)             Requested size: 433.62pt x 168.21133pt.
- [18
-
-] [19 <./Figures/SimNon.png> <./Figures/SimPul.png>] <Figures/p10000trc.pdf, id=175, 569.12625pt x 251.94125pt>
-File: Figures/p10000trc.pdf Graphic file (type pdf)
- <use Figures/p10000trc.pdf>
-Package pdftex.def Info: Figures/p10000trc.pdf used on input line 29.
-(pdftex.def)             Requested size: 433.62pt x 191.96556pt.
-) (TestAna.tex
-[20 <./Figures/p10000trc.pdf, page is rotated 90 degrees>] <Figures/eplot.png, id=225, 722.7pt x 506.6428pt>
+] [15] <Figures/eplot.png, id=152, 722.7pt x 506.6428pt>
 File: Figures/eplot.png Graphic file (type png)
-
-<use Figures/eplot.png>
-Package pdftex.def Info: Figures/eplot.png used on input line 7.
+ <use Figures/eplot.png>
+Package pdftex.def Info: Figures/eplot.png used on input line 17.
 (pdftex.def)             Requested size: 433.62pt x 303.98802pt.
- <Figures/pionrun.pdf, id=228, 569.12625pt x 489.83pt>
+ [16] [17 <./Figures/eplot.png>] <Figures/pionrun.pdf, id=164, 569.12625pt x 489.83pt>
 File: Figures/pionrun.pdf Graphic file (type pdf)
  <use Figures/pionrun.pdf>
-Package pdftex.def Info: Figures/pionrun.pdf used on input line 16.
+Package pdftex.def Info: Figures/pionrun.pdf used on input line 26.
 (pdftex.def)             Requested size: 303.53267pt x 261.25298pt.
- [21 <./Figures/eplot.png>] <Figures/pioncharge.pdf, id=237, 569.12625pt x 569.12625pt>
+
+<Figures/pioncharge.pdf, id=166, 569.12625pt x 569.12625pt>
 File: Figures/pioncharge.pdf Graphic file (type pdf)
  <use Figures/pioncharge.pdf>
-Package pdftex.def Info: Figures/pioncharge.pdf used on input line 25.
+Package pdftex.def Info: Figures/pioncharge.pdf used on input line 35.
 (pdftex.def)             Requested size: 303.53267pt x 303.54599pt.
- [22 <./Figures/pionrun.pdf, page is rotated 90 degrees>] [23 <./Figures/pioncharge.pdf>]
-<Figures/Pulse.pdf, id=333, 569.12625pt x 569.12625pt>
+ [18 <./Figures/pionrun.pdf, page is rotated 90 degrees>] [19 <./Figures/pioncharge.pdf>] <Figures/Pulse.pdf, id=263, 56
+9.12625pt x 569.12625pt>
 File: Figures/Pulse.pdf Graphic file (type pdf)
- <use Figures/Pulse.pdf>
-Package pdftex.def Info: Figures/Pulse.pdf used on input line 36.
-(pdftex.def)             Requested size: 303.53267pt x 303.54599pt.
 
-<Figures/zoom.pdf, id=335, 569.12625pt x 263.98625pt>
+<use Figures/Pulse.pdf>
+Package pdftex.def Info: Figures/Pulse.pdf used on input line 46.
+(pdftex.def)             Requested size: 303.53267pt x 303.54599pt.
+ <Figures/zoom.pdf, id=265, 569.12625pt x 263.98625pt>
 File: Figures/zoom.pdf Graphic file (type pdf)
  <use Figures/zoom.pdf>
-Package pdftex.def Info: Figures/zoom.pdf used on input line 45.
+Package pdftex.def Info: Figures/zoom.pdf used on input line 55.
 (pdftex.def)             Requested size: 433.62pt x 201.14319pt.
+ [20 <./Figures/Pulse.pdf>]) [21 <./Figures/zoom.pdf, page is rotated 90 degrees>]
+**************************
+Chapter 4
+(SimAna.tex [22
+
+] <Figures/Y11.png, id=367, 689.4558pt x 239.4546pt>
+File: Figures/Y11.png Graphic file (type png)
+ <use Figures/Y11.png>
+Package pdftex.def Info: Figures/Y11.png used on input line 9.
+(pdftex.def)             Requested size: 433.62pt x 150.60143pt.
+ [23 <./Figures/Y11.png>]
+<Figures/SimNon.png, id=374, 557.4426pt x 272.217pt>
+File: Figures/SimNon.png Graphic file (type png)
+ <use Figures/SimNon.png>
+Package pdftex.def Info: Figures/SimNon.png used on input line 20.
+(pdftex.def)             Requested size: 433.62pt x 211.75102pt.
+
+<Figures/SimPul.png, id=375, 638.385pt x 247.6452pt>
+File: Figures/SimPul.png Graphic file (type png)
+ <use Figures/SimPul.png>
+Package pdftex.def Info: Figures/SimPul.png used on input line 31.
+(pdftex.def)             Requested size: 433.62pt x 168.21133pt.
+ [24 <./Figures/SimNon.png>]
+<Figures/p10000trc.pdf, id=383, 569.12625pt x 251.94125pt>
+File: Figures/p10000trc.pdf Graphic file (type pdf)
+ <use Figures/p10000trc.pdf>
+Package pdftex.def Info: Figures/p10000trc.pdf used on input line 42.
+(pdftex.def)             Requested size: 433.62pt x 191.96556pt.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
- [24] [25 <./Figures/Pulse.pdf> <./Figures/zoom.pdf, page is rotated 90 degrees>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
+ [25 <./Figures/SimPul.png>]
+[26 <./Figures/p10000trc.pdf, page is rotated 90 degrees>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
  (JohnThesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 58.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 61.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
  ) 
 Here is how much of TeX's memory you used:
- 8342 strings out of 493333
- 124685 string characters out of 3139195
- 322240 words of memory out of 3000000
- 11690 multiletter control sequences out of 15000+200000
+ 8346 strings out of 493333
+ 124718 string characters out of 3139195
+ 322280 words of memory out of 3000000
+ 11692 multiletter control sequences out of 15000+200000
  8315 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,12n,45p,2260b,360s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on JohnThesis.pdf (29 pages, 1421175 bytes).
+Output written on JohnThesis.pdf (30 pages, 1422444 bytes).
 PDF statistics:
- 500 PDF objects out of 1000 (max. 8388607)
- 57 named destinations out of 1000 (max. 500000)
- 172 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 509 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
+ 180 words of extra memory for PDF output out of 10000 (max. 10000000)
 
