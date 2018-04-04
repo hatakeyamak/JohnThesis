@@ -13,7 +13,7 @@ Since the program can simulate the non-linearity effects of the SiPM, we can use
 
 \section{Simulation Analysis}
 
-To do the analysis using the SiPM simulation, we simply measure the total output of the SiPM over a light pulse and compare it to the number of input photons. Since there is a degree of randomness we will use the average pulse over several inputs. Compared to using test beam data the analysis with the simulation is simple. In test beam the energy of the particle is spread over several SiPMs while in the simulation we have a very fine control of the input energy to the single SiPM. With a plot of input number of photons vs SiPM output charge we then create a correction curve that is necessary to make the graph linear. This is process for doing a non-linearity analysis using test beam data so we can compare the two correction curves to see if there is agreement. With other analyses it is common to simply divide out the cross talk. Given that there is a $15.4\%$ chance of crosstalk with a large signal of several thousand photons it is assumed that $15.4\%$ of the signal from the SiPM is due to cross talk so that number is simply divided out. This means the majority of the effects that the correction curve is compensating for is saturation. With the simulation we can simply turn off cross talk but it is still useful to compare non-linear curves with cross talk, cross talk turned off, and cross talk divided out.
+To do the analysis using the SiPM simulation, we simply measure the total output of the SiPM over a light pulse and compare it to the number of input photons. Since there is a degree of randomness we will use the average pulse over several inputs. Compared to using test beam data the analysis with the simulation is simple. In test beam the energy of the particle is spread over several SiPMs while in the simulation we have a very fine control of the input energy to the single SiPM. With a plot of input number of photons vs SiPM output charge we then create a correction curve that is necessary to make the graph linear. This is process for doing a non-linearity analysis using test beam data so we can compare the two correction curves to see if there is agreement. With other analyses it is common to simply divide out the cross talk. Given that there is a $15.4\%$ chance of crosstalk with a large signal of several thousand photons it is assumed that $15.4\%$ of the signal from the SiPM is due to cross talk so that number is simply divided out. This means the majority of the effects that the correction curve is compensating for is saturation. 
 
 \begin{figure}
 \centering
@@ -22,9 +22,23 @@ To do the analysis using the SiPM simulation, we simply measure the total output
 \label{fig:SimNon}
 \end{figure}
 
-%I may go back and do this a little more neatly with a more data and statistics but I think this is the basis of it. I would also like to look a cross talk as mentioned in the paragragh. Finally actually getting a correction curve would be good.
+To be sure the simulation is designed correctly it is useful to compare things like non-linearity to the actualy SiPM. Figure~\ref{fig:NonLin} shows the non-linearity of the SiPM from shining a laser directly on the SiPM. Figure~\ref{fig:Cor} shows a similar plot constructed using the simulation. There is significant disagreement between these two sets of data.
 
-Using the simulation we can also look at the pulse shape of the SiPM. One of the main things that is necessary to look at is does the pulse shape change significantly with a change in input energy.
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth]{Figures/LaserNonLin.png}
+\caption{Graph of the correction factor vs. number of pixels fired. The correction factor is the number the output needs to be multiplied by in order to obtain the linear output value. This means a perfectly linear device would always have a correction factor of 1. This data was obtained from shining a laser directly on the SiPM.}
+\label{fig:NonLin}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth]{Figures/CorFac.png}
+\caption{Graph of the correction factor vs. number of pixels fired. The correction factor is the number the output needs to be multiplied by in order to obtain the linear output value. This means a perfectly linear device would always have a correction factor of 1. This data was obtained from the SiPM simulation.}
+\label{fig:Cor}
+\end{figure}
+
+Using the simulation we can also look at the pulse shape of the SiPM. This pulse shape should theoretically be the same obtained from test beam data. One of the main things that is necessary to look at is does the pulse shape change significantly with a change in input energy. As shown is figure~\ref{fig:SimPul} does not significantly change with different energies.
 
 \begin{figure}
 \centering
@@ -32,8 +46,6 @@ Using the simulation we can also look at the pulse shape of the SiPM. One of the
 \caption{Pulse shapes from the SiPM simulation. They are stacked on top of each other to highlight any differences from an increase input photon count.}
 \label{fig:SimPul}
 \end{figure}
-
-%I have this plot but I am not sure how to quantify these results. Is there a numerical method of determining how close or different the pulses are over different energies? Is there an accepted pulse from data or Chris I can compare this too?
 
 One effect of the saturation that is less understood and harder to implement is that the pixels can sometimes recharge faster. This effect is due to the QIE chips in the readout modules which in addition to taking and processing the charge from the SiPMs also supply the charge that recharges the capacitors for each individual pixel. The capacitors for the pixels recharge exponentially just like normal RC circuits. Normally the time constant for the capacitors is about 9ns which means the capacitor is basically completely charges after 20ns but this is when the SiPM is outputting a very low amount of charge to the QIE chips. When the SiPM is outputting more charge the QIE chips then supply more charge to the SiPM recharging the pixels faster. When the pixels recharge fast they will fire off closer to their maximum charge even when hit in rapid succession. This means as saturation becomes more prevalent with a high number of incident photons this reduces the effects of saturation. The effect of different recharge time for the pixels can be see in figure~\ref{fig:trc}.
 
@@ -43,5 +55,3 @@ One effect of the saturation that is less understood and harder to implement is 
 \caption{Output pulses of the SiPM simulation with 10000 incidents photons comparing the effect of changing the recharge time constant on the pixels. The TRC value is the recharge time constant.}
 \label{fig:trc}
 \end{figure}
-
-%I think the final thing for this would be implimenting something that would change the trc with output charge in run time.
