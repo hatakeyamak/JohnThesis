@@ -55,3 +55,31 @@ One effect of the saturation that is less understood and harder to implement is 
 \caption{Output pulses of the SiPM simulation with 10000 incidents photons comparing the effect of changing the recharge time constant on the pixels. The TRC value is the recharge time constant.}
 \label{fig:trc}
 \end{figure}
+
+We can compare the pulse shape from the simulation to the one obtained from test beam data. Theoretically these pulses should be the same. For comparison we simply plot the two pulse shapes on top of each other and see if there are any major differences. To minimize the interference of other effects like non-linearity we can compare pulses from similar output charge. Using the conversion ratio of 40 fC to 1 photo electron we can compare pulses from the same charge range. For instance, for the charge range 10,000-29,000 fC we compare it a pulse of 500 photo electrons from the simulation. Figures ~\ref{fig:1comparison_together}-~\ref{fig:3comparison_together} show these comparisons. While they do have the same basic shape there are some significant differences mostly the simulation is much narrower in the base.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.495\linewidth]{Figures/10Comparison.pdf}
+\includegraphics[width=0.495\linewidth]{Figures/29Comparison.pdf}
+\caption{Histogram of the pulse shapes from the simulation and the test beam overlapping for comparison purposes. On the left the charge range is 10,000-29,000 fC on the right is 29,000-50,000 fC}
+\label{fig:1comparison_together}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.495\linewidth]{Figures/50Comparison.pdf}
+\includegraphics[width=0.495\linewidth]{Figures/80Comparison.pdf}
+\caption{Histogram of the pulse shapes from the simulation and the test beam overlapping for comparison purposes. On the left the charge range is 50,000-80,000 fC on the right is 80,000-125,000 fC}
+\label{fig:2comparison_together}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.495\linewidth]{Figures/125Comparison.pdf}
+\caption{Histogram of the pulse shapes from the simulation and the test beam overlapping for comparison purposes. On the left the charge range is 10,000-29,000 fC on the right is 125,000-168,000 fC}
+\label{fig:3comparison_together}
+\end{figure}
+
+\section{Conclusions}
+
