@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.9.8)  9 APR 2018 10:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.9.8)  9 APR 2018 11:09
 entering extended mode
 **./JohnThesis.tex
 (JohnThesis.tex
@@ -453,7 +453,7 @@ Chapter 1
 (intro.tex [1
 
 
-] [2] [3] [4] <Figures/higgsmeasurement.png, id=68, 1185.42876pt x 1151.30125pt>
+] [2] [3] [4] <Figures/higgsmeasurement.png, id=72, 1185.42876pt x 1151.30125pt>
 File: Figures/higgsmeasurement.png Graphic file (type png)
 
 <use Figures/higgsmeasurement.png>
@@ -462,11 +462,7 @@ Package pdftex.def Info: Figures/higgsmeasurement.png used on input line 56.
  [5]) [6 <./Figures/higgsmeasurement.png>]
 **************************
 Chapter 2
-(LHC_CMS.tex
-
-LaTeX Warning: Reference `fig:LHC' on page 7 undefined on input line 6.
-
-<Figures/LHC.png, id=84, 447.17062pt x 252.19218pt>
+(LHC_CMS.tex <Figures/LHC.png, id=89, 447.17062pt x 252.19218pt>
 File: Figures/LHC.png Graphic file (type png)
  <use Figures/LHC.png>
 Package pdftex.def Info: Figures/LHC.png used on input line 10.
@@ -474,12 +470,12 @@ Package pdftex.def Info: Figures/LHC.png used on input line 10.
  [7
 
 ]
-<Figures/acceleratorcomplex.jpg, id=92, 2125.9425pt x 1619.04875pt>
+<Figures/acceleratorcomplex.jpg, id=97, 2125.9425pt x 1619.04875pt>
 File: Figures/acceleratorcomplex.jpg Graphic file (type jpg)
  <use Figures/acceleratorcomplex.jpg>
 Package pdftex.def Info: Figures/acceleratorcomplex.jpg used on input line 19.
 (pdftex.def)             Requested size: 346.89731pt x 264.16696pt.
- [8 <./Figures/LHC.png>] [9 <./Figures/acceleratorcomplex.jpg>] <Figures/CMSlayout.jpg, id=107, 633.11531pt x 376.40625p
+ [8 <./Figures/LHC.png>] [9 <./Figures/acceleratorcomplex.jpg>] <Figures/CMSlayout.jpg, id=111, 633.11531pt x 376.40625p
 t>
 File: Figures/CMSlayout.jpg Graphic file (type jpg)
 
@@ -490,19 +486,19 @@ Package pdftex.def Info: Figures/CMSlayout.jpg used on input line 42.
 
 LaTeX Warning: Reference `Figures/Tile.png' on page 10 undefined on input line 48.
 
-<Figures/Tile.png, id=108, 267.24844pt x 255.95625pt>
+<Figures/Tile.png, id=112, 267.24844pt x 255.95625pt>
 File: Figures/Tile.png Graphic file (type png)
  <use Figures/Tile.png>
 Package pdftex.def Info: Figures/Tile.png used on input line 52.
 (pdftex.def)             Requested size: 260.17464pt x 249.20677pt.
- [10] [11 <./Figures/CMSlayout.jpg> <./Figures/Tile.png>] <Figures/Depthsegmentation.pdf, id=122, 775.0671pt x 426.14043
+ [10] [11 <./Figures/CMSlayout.jpg> <./Figures/Tile.png>] <Figures/Depthsegmentation.pdf, id=127, 775.0671pt x 426.14043
 pt>
 File: Figures/Depthsegmentation.pdf Graphic file (type pdf)
  <use Figures/Depthsegmentation.pdf>
 Package pdftex.def Info: Figures/Depthsegmentation.pdf used on input line 61.
 (pdftex.def)             Requested size: 433.62pt x 238.40942pt.
 
-[12] [13 <./Figures/Depthsegmentation.pdf>] <Figures/SiPM.jpg, id=151, 406.1574pt x 158.994pt>
+[12] [13 <./Figures/Depthsegmentation.pdf>] <Figures/SiPM.jpg, id=156, 406.1574pt x 158.994pt>
 File: Figures/SiPM.jpg Graphic file (type jpg)
  <use Figures/SiPM.jpg>
 Package pdftex.def Info: Figures/SiPM.jpg used on input line 73.
@@ -513,165 +509,161 @@ Package pdftex.def Info: Figures/SiPM.jpg used on input line 73.
 Chapter 3
 (TestAna.tex [15
 
-] <Figures/Teststand.png, id=162, 343.2825pt x 493.845pt>
+] <Figures/Teststand.png, id=167, 343.2825pt x 493.845pt>
 File: Figures/Teststand.png Graphic file (type png)
  <use Figures/Teststand.png>
 Package pdftex.def Info: Figures/Teststand.png used on input line 9.
 (pdftex.def)             Requested size: 173.44534pt x 249.51408pt.
- [16 <./Figures/Teststand.png>] [17] <Figures/eplot.png, id=174, 722.7pt x 506.6428pt>
+ [16 <./Figures/Teststand.png>] [17] <Figures/eplot.png, id=179, 722.7pt x 506.6428pt>
 File: Figures/eplot.png Graphic file (type png)
  <use Figures/eplot.png>
 Package pdftex.def Info: Figures/eplot.png used on input line 24.
 (pdftex.def)             Requested size: 433.62pt x 303.98802pt.
  [18 <./Figures/eplot.png>]
-<Figures/pionrun.pdf, id=182, 569.12625pt x 489.83pt>
+<Figures/pionrun.pdf, id=187, 569.12625pt x 489.83pt>
 File: Figures/pionrun.pdf Graphic file (type pdf)
  <use Figures/pionrun.pdf>
 Package pdftex.def Info: Figures/pionrun.pdf used on input line 33.
 (pdftex.def)             Requested size: 303.53267pt x 261.25298pt.
 
-<Figures/pioncharge.pdf, id=184, 569.12625pt x 569.12625pt>
+<Figures/pioncharge.pdf, id=189, 569.12625pt x 569.12625pt>
 File: Figures/pioncharge.pdf Graphic file (type pdf)
  <use Figures/pioncharge.pdf>
 Package pdftex.def Info: Figures/pioncharge.pdf used on input line 42.
 (pdftex.def)             Requested size: 303.53267pt x 303.54599pt.
- [19 <./Figures/pionrun.pdf, page is rotated 90 degrees>] [20 <./Figures/pioncharge.pdf>] <Figures/Pulse.pdf, id=281, 56
+ [19 <./Figures/pionrun.pdf, page is rotated 90 degrees>] [20 <./Figures/pioncharge.pdf>] <Figures/Pulse.pdf, id=286, 56
 9.12625pt x 569.12625pt>
 File: Figures/Pulse.pdf Graphic file (type pdf)
 
 <use Figures/Pulse.pdf>
 Package pdftex.def Info: Figures/Pulse.pdf used on input line 51.
 (pdftex.def)             Requested size: 303.53267pt x 303.54599pt.
- [21] [22 <./Figures/Pulse.pdf>] <Figures/FittedPlot.pdf, id=336, 569.12625pt x 551.05875pt>
+ [21] [22 <./Figures/Pulse.pdf>] <Figures/FittedPlot.pdf, id=341, 569.12625pt x 551.05875pt>
 File: Figures/FittedPlot.pdf Graphic file (type pdf)
 
 <use Figures/FittedPlot.pdf>
 Package pdftex.def Info: Figures/FittedPlot.pdf used on input line 60.
 (pdftex.def)             Requested size: 346.89731pt x 335.90149pt.
- <Figures/zoom.pdf, id=339, 569.12625pt x 263.98625pt>
+ [23 <./Figures/FittedPlot.pdf, page is rotated 90 degrees>]
+<Figures/zoom.pdf, id=392, 569.12625pt x 263.98625pt>
 File: Figures/zoom.pdf Graphic file (type pdf)
  <use Figures/zoom.pdf>
 Package pdftex.def Info: Figures/zoom.pdf used on input line 69.
 (pdftex.def)             Requested size: 433.62pt x 201.14319pt.
- [23 <./Figures/FittedPlot.pdf, page is rotated 90 degrees>]
+
 
 LaTeX Warning: Reference `fig:overlap' on page 24 undefined on input line 74.
 
-<Figures/10FittedPlot.pdf, id=390, 569.12625pt x 551.05875pt>
+[24 <./Figures/zoom.pdf, page is rotated 90 degrees>] <Figures/10FittedPlot.pdf, id=445, 569.12625pt x 551.05875pt>
 File: Figures/10FittedPlot.pdf Graphic file (type pdf)
- <use Figures/10FittedPlot.pdf>
+
+<use Figures/10FittedPlot.pdf>
 Package pdftex.def Info: Figures/10FittedPlot.pdf used on input line 78.
 (pdftex.def)             Requested size: 214.63977pt x 207.8237pt.
-
-<Figures/29FittedPlot.pdf, id=391, 569.12625pt x 551.05875pt>
+ <Figures/29FittedPlot.pdf, id=446, 569.12625pt x 551.05875pt>
 File: Figures/29FittedPlot.pdf Graphic file (type pdf)
- <use Figures/29FittedPlot.pdf>
+
+<use Figures/29FittedPlot.pdf>
 Package pdftex.def Info: Figures/29FittedPlot.pdf used on input line 79.
 (pdftex.def)             Requested size: 214.63977pt x 207.8237pt.
- [24 <./Figures/zoom.pdf, page is rotated 90 degrees>] <Figures/50FittedPlot.pdf, id=441, 569.12625pt x 551.05875pt>
+ <Figures/50FittedPlot.pdf, id=447, 569.12625pt x 551.05875pt>
 File: Figures/50FittedPlot.pdf Graphic file (type pdf)
- <use Figures/50FittedPlot.pdf>
+
+<use Figures/50FittedPlot.pdf>
 Package pdftex.def Info: Figures/50FittedPlot.pdf used on input line 86.
 (pdftex.def)             Requested size: 214.63977pt x 207.8237pt.
-
-<Figures/80FittedPlot.pdf, id=442, 569.12625pt x 551.05875pt>
+ <Figures/80FittedPlot.pdf, id=448, 569.12625pt x 551.05875pt>
 File: Figures/80FittedPlot.pdf Graphic file (type pdf)
- <use Figures/80FittedPlot.pdf>
+
+<use Figures/80FittedPlot.pdf>
 Package pdftex.def Info: Figures/80FittedPlot.pdf used on input line 87.
 (pdftex.def)             Requested size: 214.63977pt x 207.8237pt.
-
-<Figures/125FittedPlot.pdf, id=443, 569.12625pt x 551.05875pt>
+ <Figures/125FittedPlot.pdf, id=449, 569.12625pt x 551.05875pt>
 File: Figures/125FittedPlot.pdf Graphic file (type pdf)
- <use Figures/125FittedPlot.pdf>
+
+<use Figures/125FittedPlot.pdf>
 Package pdftex.def Info: Figures/125FittedPlot.pdf used on input line 94.
 (pdftex.def)             Requested size: 214.63977pt x 207.8237pt.
-
-<Figures/Overlap.pdf, id=444, 569.12625pt x 551.05875pt>
+ <Figures/Overlap.pdf, id=450, 569.12625pt x 551.05875pt>
 File: Figures/Overlap.pdf Graphic file (type pdf)
  <use Figures/Overlap.pdf>
 Package pdftex.def Info: Figures/Overlap.pdf used on input line 95.
 (pdftex.def)             Requested size: 214.63977pt x 207.8237pt.
- [25 <./Figures/10FittedPlot.pdf, page is rotated 90 degrees> <./Figures/29FittedPlot.pdf, page is rotated 90 degrees>] 
+
+[25 <./Figures/10FittedPlot.pdf, page is rotated 90 degrees> <./Figures/29FittedPlot.pdf, page is rotated 90 degrees>]
 [26 <./Figures/50FittedPlot.pdf, page is rotated 90 degrees> <./Figures/80FittedPlot.pdf, page is rotated 90 degrees> <.
 /Figures/125FittedPlot.pdf, page is rotated 90 degrees> <./Figures/Overlap.pdf, page is rotated 90 degrees>]
-<Figures/Logplot.pdf, id=716, 569.12625pt x 551.05875pt>
+<Figures/Logplot.pdf, id=722, 569.12625pt x 551.05875pt>
 File: Figures/Logplot.pdf Graphic file (type pdf)
  <use Figures/Logplot.pdf>
 Package pdftex.def Info: Figures/Logplot.pdf used on input line 104.
 (pdftex.def)             Requested size: 346.89731pt x 335.90149pt.
-) [27 <./Figures/Logplot.pdf, page is rotated 90 degrees>] [28]
+) [27] [28 <./Figures/Logplot.pdf, page is rotated 90 degrees>]
 **************************
 Chapter 4
 (SimAna.tex [29
 
-] <Figures/Y11.png, id=775, 689.4558pt x 239.4546pt>
+] <Figures/Y11.png, id=779, 689.4558pt x 239.4546pt>
 File: Figures/Y11.png Graphic file (type png)
  <use Figures/Y11.png>
 Package pdftex.def Info: Figures/Y11.png used on input line 9.
 (pdftex.def)             Requested size: 433.62pt x 150.60143pt.
  [30 <./Figures/Y11.png>]
-<Figures/SimNon.png, id=782, 557.4426pt x 272.217pt>
+<Figures/SimNon.png, id=786, 557.4426pt x 272.217pt>
 File: Figures/SimNon.png Graphic file (type png)
  <use Figures/SimNon.png>
 Package pdftex.def Info: Figures/SimNon.png used on input line 20.
 (pdftex.def)             Requested size: 433.62pt x 211.75102pt.
 
-<Figures/LaserNonLin.png, id=785, 578.16pt x 283.81032pt>
+<Figures/LaserNonLin.png, id=789, 578.16pt x 283.81032pt>
 File: Figures/LaserNonLin.png Graphic file (type png)
  <use Figures/LaserNonLin.png>
 Package pdftex.def Info: Figures/LaserNonLin.png used on input line 29.
 (pdftex.def)             Requested size: 433.62pt x 212.85721pt.
 
-<Figures/CorFac.png, id=786, 433.62pt x 252.945pt>
+<Figures/CorFac.png, id=790, 433.62pt x 252.945pt>
 File: Figures/CorFac.png Graphic file (type png)
  <use Figures/CorFac.png>
 Package pdftex.def Info: Figures/CorFac.png used on input line 36.
 (pdftex.def)             Requested size: 433.62pt x 252.95595pt.
 
-<Figures/SimPul.png, id=788, 638.385pt x 247.6452pt>
+<Figures/SimPul.png, id=792, 638.385pt x 247.6452pt>
 File: Figures/SimPul.png Graphic file (type png)
  <use Figures/SimPul.png>
 Package pdftex.def Info: Figures/SimPul.png used on input line 45.
 (pdftex.def)             Requested size: 433.62pt x 168.21133pt.
- [31 <./Figures/SimNon.png>] [32 <./Figures/LaserNonLin.png> <./Figures/CorFac.png>] <Figures/p10000trc.pdf, id=804, 569
+ [31 <./Figures/SimNon.png>] [32 <./Figures/LaserNonLin.png> <./Figures/CorFac.png>] <Figures/p10000trc.pdf, id=809, 569
 .12625pt x 251.94125pt>
 File: Figures/p10000trc.pdf Graphic file (type pdf)
 
 <use Figures/p10000trc.pdf>
 Package pdftex.def Info: Figures/p10000trc.pdf used on input line 54.
 (pdftex.def)             Requested size: 433.62pt x 191.96556pt.
-
-
-LaTeX Warning: Reference `fig:1comparison_together' on page 33 undefined on input line 59.
-
-
-LaTeX Warning: Reference `fig:3comparison_together' on page 33 undefined on input line 59.
-
-[33 <./Figures/SimPul.png>] <Figures/10Comparison.pdf, id=812, 569.12625pt x 551.05875pt>
+ [33 <./Figures/SimPul.png>] <Figures/10Comparison.pdf, id=819, 569.12625pt x 551.05875pt>
 File: Figures/10Comparison.pdf Graphic file (type pdf)
 
 <use Figures/10Comparison.pdf>
 Package pdftex.def Info: Figures/10Comparison.pdf used on input line 63.
 (pdftex.def)             Requested size: 214.63977pt x 207.8237pt.
- <Figures/29Comparison.pdf, id=813, 569.12625pt x 551.05875pt>
+ <Figures/29Comparison.pdf, id=820, 569.12625pt x 551.05875pt>
 File: Figures/29Comparison.pdf Graphic file (type pdf)
 
 <use Figures/29Comparison.pdf>
 Package pdftex.def Info: Figures/29Comparison.pdf used on input line 64.
 (pdftex.def)             Requested size: 214.63977pt x 207.8237pt.
- <Figures/50Comparison.pdf, id=814, 569.12625pt x 551.05875pt>
+ <Figures/50Comparison.pdf, id=821, 569.12625pt x 551.05875pt>
 File: Figures/50Comparison.pdf Graphic file (type pdf)
 
 <use Figures/50Comparison.pdf>
 Package pdftex.def Info: Figures/50Comparison.pdf used on input line 71.
 (pdftex.def)             Requested size: 214.63977pt x 207.8237pt.
- <Figures/80Comparison.pdf, id=815, 569.12625pt x 551.05875pt>
+ <Figures/80Comparison.pdf, id=822, 569.12625pt x 551.05875pt>
 File: Figures/80Comparison.pdf Graphic file (type pdf)
 
 <use Figures/80Comparison.pdf>
 Package pdftex.def Info: Figures/80Comparison.pdf used on input line 72.
 (pdftex.def)             Requested size: 214.63977pt x 207.8237pt.
- <Figures/125Comparison.pdf, id=816, 569.12625pt x 551.05875pt>
+ <Figures/125Comparison.pdf, id=823, 569.12625pt x 551.05875pt>
 File: Figures/125Comparison.pdf Graphic file (type pdf)
 
 <use Figures/125Comparison.pdf>
@@ -698,18 +690,18 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
 Here is how much of TeX's memory you used:
  8471 strings out of 493333
  127333 string characters out of 3139195
- 324143 words of memory out of 3000000
+ 324925 words of memory out of 3000000
  11776 multiletter control sequences out of 15000+200000
  8315 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,45p,2382b,362s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,12n,45p,2382b,360s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on JohnThesis.pdf (40 pages, 3121309 bytes).
+Output written on JohnThesis.pdf (40 pages, 3119867 bytes).
 PDF statistics:
- 1179 PDF objects out of 1200 (max. 8388607)
+ 1184 PDF objects out of 1200 (max. 8388607)
  83 named destinations out of 1000 (max. 500000)
  281 words of extra memory for PDF output out of 10000 (max. 10000000)
 
