@@ -13,6 +13,6 @@
 \contentsline {chapter}{\numberline {\rm 4}\rm SiPM Simulation}{30}{chapter.4}
 \contentsline {section}{\numberline {4.1}SiPM Simulation}{30}{section.4.1}
 \contentsline {section}{\numberline {4.2}Simulation Analysis}{31}{section.4.2}
-\contentsline {section}{\numberline {4.3}Conclusions}{35}{section.4.3}
-\contentsline {chapter}{\numberline {\rm 5}\rm Conclusions}{38}{chapter.5}
-\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \topsep =0pt \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \topsep =0pt \normalfont BIBLIOGRAPHY}{39}{chapter.5}
+\contentsline {section}{\numberline {4.3}Conclusions}{36}{section.4.3}
+\contentsline {chapter}{\numberline {\rm 5}\rm Conclusions}{40}{chapter.5}
+\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \topsep =0pt \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \topsep =0pt \normalfont BIBLIOGRAPHY}{41}{chapter.5}
