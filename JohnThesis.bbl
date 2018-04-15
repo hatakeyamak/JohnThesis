@@ -9,6 +9,15 @@ S.~Chatrchyan {\em et~al.}, ``{Observation of a new boson at a mass of 125 GeV
 S.~Chatrchyan {\em et~al.}, ``The {CMS} experiment at the {CERN} {LHC},'' {\em
   JINST}, vol.~3, p.~S08004, 2008.
 
+\bibitem{HCALPhase1}
+J.~Mans, J.~Anderson, B.~Dahmes, P.~de~Barbaro, J.~Freeman, T.~Grassi,
+  E.~Hazen, J.~Mans, R.~Ruchti, I.~Schimdt, T.~Shaw, C.~Tully, J.~Whitmore, and
+  T.~Yetkin, ``{CMS Technical Design Report for the Phase 1 Upgrade of the
+  Hadron Calorimeter},'' Tech. Rep. CERN-LHCC-2012-015. CMS-TDR-10, Sep 2012.
+\newblock Additional contact persons: Jeffrey Spalding, Fermilab,
+  spalding@cern.ch, Didier Contardo, Universite Claude Bernard-Lyon I,
+  contardo@cern.ch.
+
 \bibitem{HB}
 S.~Abdullin {\em et~al.}, ``Design, performance, and calibration of cms
   hadron-barrel calorimeter wedges,'' {\em Eur. Phys. J.}, vol.~C55, p.~159,
@@ -17,5 +26,10 @@ S.~Abdullin {\em et~al.}, ``Design, performance, and calibration of cms
 \bibitem{HF}
 S.~Abdullin {\em et~al.}, ``Design, performance and calibration of the cms
   forward calorimeter wedges,'' {\em Eur. Phys. J.}, vol.~C53, p.~139, 2008.
+
+\bibitem{TB96}
+V.~V. Abramov {\em et~al.}, ``Studies of the response of the prototype cms
+  hadron calorimeter, including magnetic field effects, to pion, electron, and
+  muon beams,'' {\em Nucl. Instrum. Meth.}, vol.~A457, p.~75, 2001.
 
 \end{thebibliography}

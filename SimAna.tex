@@ -1,12 +1,12 @@
 \section{SiPM Simulation}
 
-In addition to studying the new electronics with the test beam, we also did some work wtih a SiPM simulation which could use theoretical signals from the detector and give the SiPM's response to them. When the light from the detector goes to the SiPM a Y11 light mixer is used so that the light is spread across the pixel face. The light mixer has a unique shape, shown in figure ~\ref{fig:Y11} in which it shines the light onto the pixel face. Using a mathematical representation of this pulse shape we can simulate how light is shined on the pixel face. We can then create a virtual pixel face that has accurate geometric representation. Each of these virtual pixels could be activated by the incoming Y11 light pulse and would respond by firing off a set amount of charge just like an actual SiPM would. When these pixels are activated they also have a certain probability to activate a neighboring pixel which will simulate the cross talk of the SiPM. Each pixel also has a recharge rate so if it is hit in rapid succession it will fire with a reduced amount of charge emulating the saturation effect. Using this simulation we easily adjust the number of input photons and get very good details of the SiPM response. We can also easily turn different things off to see how significant individual effects are. This simulation is capable of producing more fine tuned data and in greater quantities than test beam data. In addition, it is able to simulate situations that are not possible in the test beam. On the other hand the accuracy of this simulation is heavily dependent on the data we input into it.
+In addition to studying the new electronics with the test beam, we also did some work wtih a SiPM simulation which could use theoretical signals from the detector and give the SiPM's response to them. When the light from the detector goes to the SiPM a Y11 light mixer is used so that the light is spread across the pixel face. The light mixer has a unique shape, shown in figure ~\ref{fig:Y11} in which it shines the light onto the pixel face. Using a mathematical representation of this pulse shape we can simulate how light is shined on the pixel face. We can then create a virtual pixel face that has accurate geometric representation. Each of these virtual pixels could be activated by the incoming Y11 light pulse and would respond by firing off a set amount of charge as would an actual SiPM. When these pixels are activated they also have a certain probability to activate a neighboring pixels which will simulate the cross talk of the SiPM. Each pixel also has a recharge rate such that if hit in rapid succession it will fire with a reduced amount of charge emulating the saturation effect. Using this simulation we easily adjust the number of input photons and get very good details of the SiPM response. We can also easily turn different things off to see how significant individual effects are. This simulation is capable of producing more fine tuned data and in greater quantities than test beam data. In addition, it is able to simulate situations that are not possible in the test beam. On the other hand the accuracy of this simulation is heavily dependent on the data we input into it.
 
 Since the program can simulate the non-linearity effects of the SiPM, we can use theoretical inputs to the SiPM to study its effects. The light a particle deposits in a scintillator tile can vary in time the Y11 light mixer ensures that the input light pulse shape remains constant. This means to change energy of the incident particle we just have to increase the number of photons in the input pulse while keeping the same shape. The output of the virtual SiPM is normalized so if the simulation was a completely linear device its output "charge" should exactly equal the number of input photons. 
 
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{Figures/Y11.pdf}
+\includegraphics[width=0.8\linewidth]{Figures/Y11.pdf}
 \caption{A graph of the Y11 pulse shape with nanoseconds on the x axis and number of incident photons on the y axis}
 \label{fig:Y11}
 \end{figure}
@@ -17,7 +17,7 @@ To do the analysis using the SiPM simulation, we simply measure the total output
 
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{Figures/SimNon.png}
+\includegraphics[width=0.8\linewidth]{Figures/SimNon.png}
 \caption{Graph of number of incident photons vs output charge of the SiPM simulation. Given the units of the simulation a perfectly linear device would have all data points falling on the y=x line but as shown as the number of incident photons is increased the data points fall short of this line.}
 \label{fig:SimNon}
 \end{figure}
@@ -38,11 +38,11 @@ To be sure the simulation is designed correctly it is useful to compare things l
 \label{fig:Cor}
 \end{figure}
 
-One effect of the saturation that is less understood and harder to implement is that the pixels can sometimes recharge faster. This effect is due to the QIE chips in the readout modules which in addition to taking and processing the charge from the SiPMs also supply the charge that recharges the capacitors for each individual pixel. The capacitors for the pixels recharge exponentially just like normal RC circuits. Normally the time constant for the capacitors is about 9ns which means the capacitor is basically completely charges after 20ns but this is when the SiPM is outputting a very low amount of charge to the QIE chips. When the SiPM is outputting more charge the QIE chips then supply more charge to the SiPM recharging the pixels faster. When the pixels recharge fast they will fire off closer to their maximum charge even when hit in rapid succession. This means as saturation becomes more prevalent with a high number of incident photons this reduces the effects of saturation. The effect of different recharge time for the pixels can be see in figure~\ref{fig:trc}.
+One effect of the saturation that is less understood and harder to implement is that the pixels can sometimes recharge faster. This effect is due to the QIE chips in the readout modules which in addition to taking and processing the charge from the SiPMs also supply the charge that recharges the capacitors for each individual pixel. The capacitors for the pixels recharge exponentially like normal RC circuits. Normally the time constant for the capacitors is about 9ns which means the capacitor is completely charges after 20ns but this is when the SiPM is outputting a very low amount of charge to the QIE chips. When the SiPM is outputting more charge the QIE chips then supply more charge to the SiPM recharging the pixels faster. When the pixels recharge fast they will fire off closer to their maximum charge even when hit in rapid succession. This means as saturation becomes more prevalent with a high number of incident photons this reduces the effects of saturation. The effect of different recharge time for the pixels can be see in figure~\ref{fig:trc}.
 
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{Figures/p10000trc.pdf}
+\includegraphics[width=0.8\linewidth]{Figures/trc.pdf}
 \caption{Output pulses of the SiPM simulation with 10000 incidents photons comparing the effect of changing the recharge time constant on the pixels. The TRC value is the recharge time constant.}
 \label{fig:trc}
 \end{figure}
@@ -51,7 +51,7 @@ Using the simulation we can also look at the pulse shape of the SiPM. This pulse
 
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{Figures/SimPul.pdf}
+\includegraphics[width=0.8\linewidth]{Figures/SimPul.pdf}
 \caption{Pulse shapes from the SiPM simulation. They are stacked on top of each other to highlight any differences from an increase input photon count.}
 \label{fig:SimPul}
 \end{figure}
@@ -83,4 +83,4 @@ We can compare the pulse shape from the simulation to the one obtained from test
 
 \section{Conclusions}
 
-The creation of the simulation was a very helpful tool in understanding the details of how a SiPM works. It is also a very useful illustration for how it work and it can be easily adjust for future modifications. 
+The creation of the simulation was a very helpful tool in understanding the details of how a SiPM works. It is also a very useful illustration for how it work and it can be easily adjust for future modifications. Some of the plots used in this paper to explain how a SiPM works were created using this simulation. The analysis of the simulation, however, shows that there is still some major flaws with the simulation. The pulse shape comparison shows that the simulation shape is significantly narrower in the base than the actual pulse shape. In addition, the non-linearity in the simulation is much smaller than measurements made using an actual SiPM. The reasons for these discrepancies are still being investigated, but there are several leads. Among them are the changing recharge times and other affects such as the scintillator tiles and QIE chips not yet taken into account in the simulation. 
