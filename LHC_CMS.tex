@@ -5,8 +5,8 @@ The LHC is located at CERN near Geneva, Switzerland. It has a circular shape and
 
 \begin{figure}
 \centering
-\includegraphics[width=0.8\linewidth]{Figures/LHC.png}
-\caption{A picture of the LHC (outlined in yellow) with the different detectors highlighted}
+\includegraphics[width=0.8\linewidth]{Figures/LHC.jpg}
+\caption{An aerial view of the LHC near Geneva, Switzerland~\cite{LHC_view}}
 \label{fig:LHC}
 \end{figure}
 
@@ -15,7 +15,7 @@ The process the LHC uses sounds simple when put into common terms. It accelerate
 \begin{figure}
 \centering
 \includegraphics[width=0.8\linewidth]{Figures/acceleratorcomplex.jpg}
-\caption{Chain of accelerators feeding into the LHC}
+\caption{The chain of accelerators that feeds the protons into the LHC}
 \label{fig:acceleratorcomplex}
 \end{figure}
 
@@ -29,7 +29,7 @@ Even with all of these sub-detector there are still particles not directly detec
 \begin{figure}
 \centering
 \includegraphics[width=\linewidth]{Figures/CMSlayout.jpg}
-\caption{A slice of the CMS detector highlighting the different sub-detectors and showing different particles and where they are stopped}
+\caption{A slice of the CMS detector highlighting the different sub-detectors and showing different particles and where they are stopped~\cite{Davis}.}
 \label{fig:CMSlayout}
 \end{figure}
 
@@ -39,7 +39,7 @@ One of the main jobs of the calorimeter is to measure the energy of the of the i
 \begin{figure}
 \centering
 \includegraphics[width=0.6\linewidth]{Figures/Tile.png}
-\caption{A picture of a scintillator tile with the optical fiber around the edges.}
+\caption{A scintillator tile with blue light and the wavelength shifting optical fiber around the edges and traveling out of the tile.}
 \label{fig:Tile}
 \end{figure}
 
@@ -50,11 +50,9 @@ There are three main section to the HCAL. There is the Hadron Barrel (HB)~\cite{
 \begin{figure}
 \centering
 \includegraphics[width=\linewidth]{Figures/Depthsegmentation.pdf}
-\caption{Layout of the HCAL showing a single iphi slice of HE HB and HF. Each box represents a scintillator tile}
+\caption{Layout of the HCAL showing a single iphi slice of HE, HB, and HF. Each box represents a scintillator tile}
 \label{fig:Depth}
 \end{figure}
-
-%Add information about Y11 here
 
 \subsection{Silicon Photomultipliers}
 The SiPM does its job of counting the photons from the scintillator by shining them on a pixel face. This is a circular array of really small pixels. A picture of the SiPM is in figure~\ref{fig:SiPM} showing several pixel faces. There are about 33,000 pixels on a 3.3 mm diameter pixel face. When an individual photon hits one of the pixels on the pixel face it causes a capacitor to fire off a particular amount of charge. The total output charge of the SiPM is the sum of all of the pixels output charge. Theoretically one just needs to sum the total amount of output charge of the SiPM and one can count the number of incident photons since each pixel will fire off a set amount of charge. Counting of the number of incident photons will give a measurement of the incident particles energy. There are some things that complicate the SiPMs readings. SiPMs are non-linear devices, meaning the total output charge of the SiPM does not necessarily increase linearly with the number of incident photons. In fact, experiments have shown that graphing the number of incident photons vs. the SiPM output charge it looks more like a square root function rather than a straight line. At low incident photon count on the order of 1,000 photons the SiPM is very close to a linear device but as the incident number of photons increases the output charge does not increase at a steady rate. There are several factors that contribute to SiPM non-linearity but the two main ones are cross talk and saturation. Cross talk is when a pixel is activated by a photon there is a chance that this activated pixel could activate some of its neighboring pixels artificially increase the output charge of the SiPM. When the photon hits a pixel it excites an electron causing an electron cascade and charge to flow. This excited electron has a chance to emit an IR photon which could go in any direction. If it hits one of the neighboring pixels it could activate it just like an incident photon. 
@@ -64,7 +62,7 @@ Saturation is when a pixel is hit in rapid succession by multiple photons. When 
 \begin{figure}
 \centering
 \includegraphics[width=\linewidth]{Figures/SiPM.jpg}
-\caption{A picture of a Silicon Photomultiplier}
+\caption{The silicon photomultiplier with several pixel faces.}
 \label{fig:SiPM}
 \end{figure}
 
