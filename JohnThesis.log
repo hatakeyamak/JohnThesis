@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.9.8)  14 APR 2018 21:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.9.8)  15 APR 2018 21:35
 entering extended mode
 **./JohnThesis.tex
 (JohnThesis.tex
@@ -721,15 +721,12 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 74.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  ) 
 Here is how much of TeX's memory you used:
  8539 strings out of 493333
  128291 string characters out of 3139195
- 330578 words of memory out of 3000000
+ 330580 words of memory out of 3000000
  11813 multiletter control sequences out of 15000+200000
  10333 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -739,7 +736,7 @@ Here is how much of TeX's memory you used:
 .9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on JohnThesis.pdf (49 pages, 3187634 bytes).
+Output written on JohnThesis.pdf (49 pages, 3187649 bytes).
 PDF statistics:
  1647 PDF objects out of 1728 (max. 8388607)
  101 named destinations out of 1000 (max. 500000)
