@@ -1,9 +1,17 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{CMS_Higgs_Discovery}
 S.~Chatrchyan {\em et~al.}, ``{Observation of a new boson at a mass of 125 GeV
   with the CMS experiment at the LHC},'' {\em Phys. Lett.}, vol.~B716,
   pp.~30--61, 2012.
+
+\bibitem{CMS}
+S.~Chatrchyan {\em et~al.}, ``The {CMS} experiment at the {CERN} {LHC},'' {\em
+  JINST}, vol.~3, p.~S08004, 2008.
+
+\bibitem{HPD}
+P.~Cushman, A.~Heering, and A.~Ronzhin, ``Custom {HPD} readout for the {CMS}
+  {HCAL},'' {\em Nucl. Instrum. Meth.}, vol.~A442, p.~289, 2000.
 
 \bibitem{HCALPhase1}
 J.~Mans, J.~Anderson, B.~Dahmes, P.~de~Barbaro, J.~Freeman, T.~Grassi,
@@ -20,12 +28,31 @@ S.~Abdullin {\em et~al.}, ``Design, performance, and calibration of cms
   2008.
 
 \bibitem{HF}
-S.~Abdullin {\em et~al.}, ``Design, performance and calibration of the cms
+S.~Abdullin {\em et~al.}, ``Design, performance and calibration of the {CMS}
   forward calorimeter wedges,'' {\em Eur. Phys. J.}, vol.~C53, p.~139, 2008.
 
+\bibitem{QIE}
+{T.~Zimmerman and J.R.~Hoff}, ``The design of a charge-integrating modified
+  floating-point adc chip,'' {\em IEEE Journal of Solid-State Circuits},
+  vol.~39, p.~895, 2004.
+
+\bibitem{QIE2}
+T.~Shaw, A.~Baumbaugh, A.~Boubekeur, J.~Elias, J.~Hoff, S.~Holm, S.~Los,
+  C.~Rivetta, A.~Ronzhin, J.~Whitmore, T.~Zimmerman, and R.~Yarema, ``Front end
+  readout electronics for the cms hadron calorimeter,'' in {\em Nuclear Science
+  Symposium Conference Record, 2002 IEEE}, vol.~1, p.~194, 2002.
+
 \bibitem{TB96}
-V.~V. Abramov {\em et~al.}, ``Studies of the response of the prototype cms
+V.~V. Abramov {\em et~al.}, ``Studies of the response of the prototype {CMS}
   hadron calorimeter, including magnetic field effects, to pion, electron, and
   muon beams,'' {\em Nucl. Instrum. Meth.}, vol.~A457, p.~75, 2001.
+
+\bibitem{TB06}
+S.~Abdullin {\em et~al.}, ``The {CMS} barrel calorimeter response to particle
+  beams from 2 to 350 {GeV}/$c$,'' {\em Eur. Phys. J.}, vol.~C60, p.~359, 2009.
+
+\bibitem{SiPMSimulation_github}
+\href{https://github.com/potarf/crosstalk/tree/updates_lawrence}{\tt
+  https://github.com/potarf/crosstalk/tree/updates\_lawrence}.
 
 \end{thebibliography}
