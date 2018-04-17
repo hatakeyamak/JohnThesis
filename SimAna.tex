@@ -1,6 +1,6 @@
 \section{SiPM Simulation}
 
-In addition to studying the new electronics with the test beam, we also did some work wtih a SiPM simulation which could use theoretical signals from the detector and give the SiPM's response to them~\cite{SiPMSimulation_github}. When the light from the detector goes to the SiPM a  light mixer is used so that the light is spread across the pixel face. The light mixer shines the light on the pixel face over time in a consistent manner. This is called the Y11 pulse shape and is shown in figure~\ref{fig:Y11}. Using a mathematical representation of this pulse shape we can simulate how light is shined on the pixel face. We can then create a virtual pixel face that has accurate geometric representation. Each of these virtual pixels could be activated by the incoming Y11 light pulse and would respond by firing off a set amount of charge as would an actual SiPM. When these pixels are activated they also have a certain probability to activate a neighboring pixels which will simulate the cross talk of the SiPM. Each pixel also has a recharge rate such that if hit in rapid succession it will fire with a reduced amount of charge emulating the saturation effect. Using this simulation we easily adjust the number of input photons and get very good details of the SiPM response. We can also easily turn different things off to see how significant individual effects are. With the simulation it is simple to change the type of input to a precise situation and gather large quantities of data. On the other hand the accuracy of this simulation is heavily dependent on the data we input into it.
+In addition to studying the new electronics with the test beam, we also did some work wtih a SiPM simulation which could use theoretical signals from the detector and give the SiPM's response to them~\cite{SiPMSimulation_github}. When the light from the detector goes to the SiPM a  light mixer is used so that the light is spread across the pixel face. The light mixer shines the light on the pixel face over time in a consistent manner. This is called the Y11 pulse shape and is shown in figure~\ref{fig:Y11}. Using a mathematical representation of this pulse shape we can simulate how light is shined on the pixel face. We can then create a virtual pixel face that has accurate geometric representation. Each of these virtual pixels could be activated by the incoming Y11 light pulse and would respond by firing off a set amount of charge as would an actual SiPM. When these pixels are activated they also have a certain probability to activate a neighboring pixels which will simulate the cross talk of the SiPM. Each pixel also has a recharge rate such that, if hit in rapid succession, it will fire with a reduced amount of charge emulating the saturation effect. In this simulation we can easily adjust the number of input photons and obtain details of the SiPM response. We can also turn on and off different features of the SiPM in order to see how significant individual effects are. With the simulation it is simple to change the type of input to a precise situation and gather large quantities of data. The accuracy of this simulation is heavily dependent on the data we input into it.
 
 Since the program can simulate the non-linearity effects of the SiPM, we can use theoretical inputs to the SiPM to study its effects. As the Y11 pulse shape does not change with the number of photons or other situations, to simulate a higher energy particle, we simply need to increase the total number of photons in the incident pulse. The output of the virtual SiPM is normalized so if the simulation was a completely linear device its output "charge" should exactly equal the number of input photons. 
 
@@ -38,7 +38,7 @@ To be sure the simulation is designed correctly it is useful to compare things l
 \label{fig:Cor}
 \end{figure}
 
-One effect of the saturation that is less understood and harder to implement is that the pixels can sometimes recharge faster. This effect is due to the QIE chips in the readout modules which in addition to taking and processing the charge from the SiPMs also supply the charge that recharges the capacitors for each individual pixel. The capacitors for the pixels recharge exponentially like normal RC circuits. Normally the time constant for the capacitors is about 9ns which means the capacitor is completely charges after 20ns but this is when the SiPM is outputting a very low amount of charge to the QIE chips. When the SiPM is outputting more charge the QIE chips then supply more charge to the SiPM recharging the pixels faster. When the pixels recharge fast they will fire off closer to their maximum charge even when hit in rapid succession. This means as saturation becomes more prevalent with a high number of incident photons this reduces the effects of saturation. The effect of different recharge time for the pixels can be see in figure~\ref{fig:trc}.
+One effect of the saturation that is less understood and harder to implement is that the pixels can sometimes recharge faster. This effect is due to the QIE chips in the readout modules which, in addition to taking and processing the charge from the SiPMs, also supply the charge that recharges the capacitors for each individual pixel. The capacitors for the pixels recharge exponentially similarly to normal RC circuits. Normally the time constant for the capacitors is about 9~ns which means the capacitor is completely re-charges after 20~ns but this is when the SiPM is outputting a very low amount of charge to the QIE chips. When the SiPM is outputting more charge the QIE chips supply more charge to the SiPM recharging the pixels faster. When the pixels recharge fast they will fire off closer to their maximum charge even when hit in rapid succession. This means as saturation becomes more prevalent with a high number of incident photons this reduces the effects of saturation. The effect of different recharge time constants for the pixels can be seen in figure~\ref{fig:trc}.
 
 \begin{figure}
 \centering
@@ -47,7 +47,7 @@ One effect of the saturation that is less understood and harder to implement is 
 \label{fig:trc}
 \end{figure}
 
-Using the simulation we can also look at the pulse shape of the SiPM. This pulse shape should theoretically be the same obtained from test beam data. One of the main things that is necessary to look at is does the pulse shape change significantly with a change in input energy. As shown is figure~\ref{fig:SimPul} does not significantly change with different energies.
+Using the simulation we can also look at the pulse shape of the SiPM. This pulse shape should theoretically be the same obtained from test beam data. One of the main things that is necessary to look at is "does the pulse shape change significantly with a change in input energy?". As shown is figure~\ref{fig:SimPul} the output pulse shape does not significantly change with different energies.
 
 \begin{figure}
 \centering
@@ -56,13 +56,13 @@ Using the simulation we can also look at the pulse shape of the SiPM. This pulse
 \label{fig:SimPul}
 \end{figure}
 
-We can compare the pulse shape from the simulation to the one obtained from test beam data. Theoretically these pulses should be the same. For comparison we simply plot the two pulse shapes on top of each other and see if there are any major differences. To minimize the interference of other effects like non-linearity we can compare pulses from similar output charge. Using the conversion ratio of 40 fC to 1 photo electron we can compare pulses from the same charge range. For instance, for the charge range 10,000-29,000 fC we compare it a pulse of 500 photo electrons from the simulation. Figures ~\ref{fig:1comparison_together}-~\ref{fig:3comparison_together} show these comparisons. While they do have the same basic shape there are some significant differences mostly the simulation is much narrower in the base.
+We can compare the pulse shape from the simulation to the one obtained from test beam data. These pulses are expected to be the same. For comparison we simply plot the two pulse shapes on top of each other and see if there are any major differences. To minimize the interference of other effects such as non-linearity we can compare pulses from similar output charge. Using the conversion ratio of 40 fC to 1 photon we can compare pulses from the same charge range. We compare the pulse shape form the charge range 10,000--29,000 fC to one from the simulation results from 500 input photons. Figures ~\ref{fig:1comparison_together} and~\ref{fig:2comparison_together} show these comparisons. While they do have the same basic shape there are some significant differences mostly the simulation is much narrower in the base.
 
 \begin{figure}
 \centering
 \includegraphics[width=0.495\linewidth]{Figures/10Comparison.pdf}
 \includegraphics[width=0.495\linewidth]{Figures/29Comparison.pdf}
-\caption{The pulse shapes from the simulation and the test beam overlapping for comparison purposes. On the left the charge range is 10,000-29,000 fC on the right is 29,000-50,000 fC}
+\caption{The pulse shapes from the simulation and the test beam data overlaid for comparison purposes. On the left the charge range is 10,000--29,000 fC and on the right is 29,000--50,000 fC}
 \label{fig:1comparison_together}
 \end{figure}
 
@@ -70,17 +70,11 @@ We can compare the pulse shape from the simulation to the one obtained from test
 \centering
 \includegraphics[width=0.495\linewidth]{Figures/50Comparison.pdf}
 \includegraphics[width=0.495\linewidth]{Figures/80Comparison.pdf}
-\caption{The pulse shapes from the simulation and the test beam overlapping for comparison purposes. On the left the charge range is 50,000-80,000 fC on the right is 80,000-125,000 fC}
-\label{fig:2comparison_together}
-\end{figure}
-
-\begin{figure}
-\centering
 \includegraphics[width=0.495\linewidth]{Figures/125Comparison.pdf}
-\caption{The pulse shapes from the simulation and the test beam overlapping for comparison purposes. On the left the charge range is 10,000-29,000 fC on the right is 125,000-168,000 fC}
-\label{fig:3comparison_together}
+\caption{The pulse shapes from the simulation and the test beam data overlaid for comparison purposes. On the left the charge range is 50,000--80,000 fC, on the right is 80,000--125,000 fC, and on the bottom is 125,000--168,000 fC}
+\label{fig:2comparison_together}
 \end{figure}
 
 \section{Summary}
 
-The creation of the simulation was a very helpful tool in understanding the details of how a SiPM works. It is also a very useful illustration for how it work and it can be easily adjust for future modifications. Some of the plots used in this paper to explain how a SiPM works were created using this simulation. The analysis of the simulation, however, shows that there is still some major flaws with the simulation. The pulse shape comparison shows that the simulation shape is significantly narrower in the base than the actual pulse shape. In addition, the non-linearity in the simulation is much smaller than measurements made using an actual SiPM. The reasons for these discrepancies are still being investigated, but there are several leads. Among them are the changing recharge times and other affects such as the scintillator tiles and QIE chips not yet taken into account in the simulation. 
+The simulation is useful illustration for how the SiPM works and it can be easily adjust for future modifications. Some of the plots used in this thesis to explain how a SiPM works were created using this simulation. The analysis of the simulation, however, shows that there is still some major flaws with the simulation. The pulse shape comparison shows that the simulation shape is narrower in the base than the measured pulse shape. In addition, the non-linearity in the simulation is much smaller than measurements made using an actual SiPM. The reasons for these discrepancies are still being investigated, but there are several leads. Among them are the changing recharge times and other affects such as the scintillator tiles and QIE chips not yet taken into account in the simulation. 
