@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.9.8)  23 APR 2018 09:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.9.8)  23 APR 2018 15:17
 entering extended mode
 **./JohnThesis.tex
 (JohnThesis.tex
@@ -641,91 +641,99 @@ File: Figures/SimNon.png Graphic file (type png)
  <use Figures/SimNon.png>
 Package pdftex.def Info: Figures/SimNon.png used on input line 20.
 (pdftex.def)             Requested size: 346.89731pt x 278.6318pt.
- [35 <./Figures/SimNon.png>] <Figures/LaserNonLin.png, id=1234, 578.16pt x 283.81032pt>
+
+<Figures/LaserNonLin.png, id=1229, 578.16pt x 283.81032pt>
 File: Figures/LaserNonLin.png Graphic file (type png)
  <use Figures/LaserNonLin.png>
 Package pdftex.def Info: Figures/LaserNonLin.png used on input line 29.
 (pdftex.def)             Requested size: 433.62pt x 212.85721pt.
 
-<Figures/CorFac.png, id=1235, 433.62pt x 252.945pt>
+<Figures/CorFac.png, id=1230, 433.62pt x 252.945pt>
 File: Figures/CorFac.png Graphic file (type png)
  <use Figures/CorFac.png>
 Package pdftex.def Info: Figures/CorFac.png used on input line 36.
 (pdftex.def)             Requested size: 433.62pt x 252.95595pt.
- [36 <./Figures/LaserNonLin.png>] [37 <./Figures/CorFac.png>] <Figures/trc.pdf, id=1247, 569.12625pt x 551.05875pt>
+ [35] [36 <./Figures/SimNon.png>]
+<Figures/trc.pdf, id=1241, 569.12625pt x 551.05875pt>
 File: Figures/trc.pdf Graphic file (type pdf)
  <use Figures/trc.pdf>
 Package pdftex.def Info: Figures/trc.pdf used on input line 45.
 (pdftex.def)             Requested size: 346.89731pt x 335.90149pt.
 
-<Figures/SimPul.pdf, id=1249, 569.12625pt x 551.05875pt>
+<Figures/SimPul.pdf, id=1243, 569.12625pt x 551.05875pt>
 File: Figures/SimPul.pdf Graphic file (type pdf)
  <use Figures/SimPul.pdf>
 Package pdftex.def Info: Figures/SimPul.pdf used on input line 54.
 (pdftex.def)             Requested size: 346.89731pt x 335.90149pt.
- [38 <./Figures/trc.pdf, page is rotated 90 degrees>] <Figures/10Comparison.pdf, id=1299, 569.12625pt x 551.05875pt>
+ [37 <./Figures/LaserNonLin.png>]
+[38 <./Figures/CorFac.png>] [39 <./Figures/trc.pdf, page is rotated 90 degrees>] [40 <./Figures/SimPul.pdf, page is rota
+ted 90 degrees>] <Figures/10Comparison.pdf, id=1351, 569.12625pt x 551.05875pt>
 File: Figures/10Comparison.pdf Graphic file (type pdf)
  <use Figures/10Comparison.pdf>
 Package pdftex.def Info: Figures/10Comparison.pdf used on input line 63.
 (pdftex.def)             Requested size: 214.63977pt x 207.8237pt.
 
-<Figures/29Comparison.pdf, id=1300, 569.12625pt x 551.05875pt>
+<Figures/29Comparison.pdf, id=1352, 569.12625pt x 551.05875pt>
 File: Figures/29Comparison.pdf Graphic file (type pdf)
  <use Figures/29Comparison.pdf>
 Package pdftex.def Info: Figures/29Comparison.pdf used on input line 64.
 (pdftex.def)             Requested size: 214.63977pt x 207.8237pt.
- [39 <./Figures/SimPul.pdf, page is rotated 90 degrees>] <Figures/50Comparison.pdf, id=1348, 569.12625pt x 551.05875pt>
-File: Figures/50Comparison.pdf Graphic file (type pdf)
 
-<use Figures/50Comparison.pdf>
+<Figures/50Comparison.pdf, id=1353, 569.12625pt x 551.05875pt>
+File: Figures/50Comparison.pdf Graphic file (type pdf)
+ <use Figures/50Comparison.pdf>
 Package pdftex.def Info: Figures/50Comparison.pdf used on input line 71.
 (pdftex.def)             Requested size: 214.63977pt x 207.8237pt.
- <Figures/80Comparison.pdf, id=1349, 569.12625pt x 551.05875pt>
-File: Figures/80Comparison.pdf Graphic file (type pdf)
 
-<use Figures/80Comparison.pdf>
+<Figures/80Comparison.pdf, id=1354, 569.12625pt x 551.05875pt>
+File: Figures/80Comparison.pdf Graphic file (type pdf)
+ <use Figures/80Comparison.pdf>
 Package pdftex.def Info: Figures/80Comparison.pdf used on input line 72.
 (pdftex.def)             Requested size: 214.63977pt x 207.8237pt.
- <Figures/125Comparison.pdf, id=1350, 569.12625pt x 551.05875pt>
-File: Figures/125Comparison.pdf Graphic file (type pdf)
 
-<use Figures/125Comparison.pdf>
+<Figures/125Comparison.pdf, id=1355, 569.12625pt x 551.05875pt>
+File: Figures/125Comparison.pdf Graphic file (type pdf)
+ <use Figures/125Comparison.pdf>
 Package pdftex.def Info: Figures/125Comparison.pdf used on input line 73.
 (pdftex.def)             Requested size: 214.63977pt x 207.8237pt.
-) [40 <./Figures/10Comparison.pdf, page is rotated 90 degrees> <./Figures/29Comparison.pdf, page is rotated 90 degrees>]
- [41 <./Figures/50Comparison.pdf, page is rotated 90 degrees> <./Figures/80Comparison.pdf, page is rotated 90 degrees> <
-./Figures/125Comparison.pdf, page is rotated 90 degrees>]
+) [41 <./Figures/10Comparison.pdf, page is rotated 90 degrees> <./Figures/29Comparison.pdf, page is rotated 90 degrees>]
+ [42 <./Figures/50Comparison.pdf, page is rotated 90 degrees> <./Figures/80Comparison.pdf, page is rotated 90 degrees> <
+./Figures/125Comparison.pdf, page is rotated 90 degrees>] [43]
 **************************
 Chapter 5
-(Conclusions.tex [42
+(Conclusions.tex [44
 
-]) (JohnThesis.bbl [43] [44
+]) (JohnThesis.bbl [45] [46
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
- [45]
+ [47]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
  (JohnThesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 76.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 8573 strings out of 493333
- 128591 string characters out of 3139195
- 331562 words of memory out of 3000000
+ 8575 strings out of 493333
+ 128605 string characters out of 3139195
+ 331560 words of memory out of 3000000
  11827 multiletter control sequences out of 15000+200000
  10502 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,45p,2101b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,12n,45p,2102b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on JohnThesis.pdf (54 pages, 3480692 bytes).
+Output written on JohnThesis.pdf (56 pages, 3481788 bytes).
 PDF statistics:
- 1710 PDF objects out of 1728 (max. 8388607)
- 117 named destinations out of 1000 (max. 500000)
+ 1719 PDF objects out of 1728 (max. 8388607)
+ 119 named destinations out of 1000 (max. 500000)
  346 words of extra memory for PDF output out of 10000 (max. 10000000)
 
