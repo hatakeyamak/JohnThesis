@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.9.8)  23 APR 2018 08:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.9.8)  23 APR 2018 09:06
 entering extended mode
 **./JohnThesis.tex
 (JohnThesis.tex
@@ -593,34 +593,31 @@ ittedPlot.pdf, page is rotated 90 degrees>] <Figures/10FittedPlot.pdf, id=893, 5
 File: Figures/10FittedPlot.pdf Graphic file (type pdf)
  <use Figures/10FittedPlot.pdf>
 Package pdftex.def Info: Figures/10FittedPlot.pdf used on input line 113.
-(pdftex.def)             Requested size: 214.63977pt x 207.8237pt.
+(pdftex.def)             Requested size: 173.44534pt x 167.94234pt.
 
 <Figures/29FittedPlot.pdf, id=894, 569.12625pt x 551.05875pt>
 File: Figures/29FittedPlot.pdf Graphic file (type pdf)
  <use Figures/29FittedPlot.pdf>
 Package pdftex.def Info: Figures/29FittedPlot.pdf used on input line 114.
-(pdftex.def)             Requested size: 214.63977pt x 207.8237pt.
+(pdftex.def)             Requested size: 173.44534pt x 167.94234pt.
 
 <Figures/50FittedPlot.pdf, id=895, 569.12625pt x 551.05875pt>
 File: Figures/50FittedPlot.pdf Graphic file (type pdf)
  <use Figures/50FittedPlot.pdf>
 Package pdftex.def Info: Figures/50FittedPlot.pdf used on input line 115.
-(pdftex.def)             Requested size: 214.63977pt x 207.8237pt.
+(pdftex.def)             Requested size: 173.44534pt x 167.94234pt.
 
 <Figures/80FittedPlot.pdf, id=896, 569.12625pt x 551.05875pt>
 File: Figures/80FittedPlot.pdf Graphic file (type pdf)
  <use Figures/80FittedPlot.pdf>
 Package pdftex.def Info: Figures/80FittedPlot.pdf used on input line 116.
-(pdftex.def)             Requested size: 214.63977pt x 207.8237pt.
+(pdftex.def)             Requested size: 173.44534pt x 167.94234pt.
 
 <Figures/125FittedPlot.pdf, id=897, 569.12625pt x 551.05875pt>
 File: Figures/125FittedPlot.pdf Graphic file (type pdf)
  <use Figures/125FittedPlot.pdf>
 Package pdftex.def Info: Figures/125FittedPlot.pdf used on input line 117.
-(pdftex.def)             Requested size: 214.63977pt x 207.8237pt.
-
-
-LaTeX Warning: Float too large for page by 41.92342pt on input line 120.
+(pdftex.def)             Requested size: 173.44534pt x 167.94234pt.
 
 <Figures/Overlap.pdf, id=898, 569.12625pt x 551.05875pt>
 File: Figures/Overlap.pdf Graphic file (type pdf)
@@ -726,7 +723,7 @@ Here is how much of TeX's memory you used:
 /fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on JohnThesis.pdf (54 pages, 3490276 bytes).
+Output written on JohnThesis.pdf (54 pages, 3482453 bytes).
 PDF statistics:
  1710 PDF objects out of 1728 (max. 8388607)
  117 named destinations out of 1000 (max. 500000)
