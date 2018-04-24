@@ -6,7 +6,7 @@ The LHC is located at CERN near Geneva, Switzerland. It has a circular shape and
 \begin{figure}
 \centering
 \includegraphics[width=0.8\linewidth]{Figures/LHC.jpg}
-\caption{An aerial view of the LHC near Geneva, Switzerland~\cite{LHC_view}}
+\caption{An aerial view of the LHC near Geneva, Switzerland~\cite{LHC_view}.}
 \label{fig:LHC}
 \end{figure}
 
@@ -15,7 +15,7 @@ The process the LHC uses sounds simple when put into common terms. It accelerate
 \begin{figure}
 \centering
 \includegraphics[width=0.8\linewidth]{Figures/acceleratorcomplex.jpg}
-\caption{The chain of accelerators that feeds the protons into the LHC}
+\caption{The chain of accelerators that feed protons into the LHC.}
 \label{fig:acceleratorcomplex}
 \end{figure}
 
@@ -49,14 +49,14 @@ There are three main section to the HCAL. There are the Hadron Barrel (HB)~\cite
 \begin{figure}
 \centering
 \includegraphics[width=\linewidth]{Figures/Depthsegmentation.pdf}
-\caption{Layout of the HCAL showing a single iphi slice of HB, HE, and HF. Each box represents a scintillator tile for HB and HE. HF is read out by quartz fiber and each channel that is read out by a bundle of quartz fiber is represented by a box.}
+\caption{Layout of the HCAL showing a single iphi slice of HB, HE, and HF. Each box represents a scintillator tile for HB and HE. HF is read out by quartz fibers and each channel that is read out by a bundle of quartz fibers is represented by a box.}
 \label{fig:Depth}
 \end{figure}
 
 \subsection{Silicon Photomultipliers}
 The SiPM does its job of counting the photons from the scintillator by shining them on a pixel face. This is a circular array of really small pixels. A picture of the SiPM is in figure~\ref{fig:SiPM} showing several pixel faces. There are about 33,000 pixels on a 3.3 mm diameter pixel face. When an individual photon hits one of the pixels on the pixel face it causes a capacitor to fire off a particular amount of charge. The total output charge of the SiPM is the sum of all of the pixels output charge. Theoretically one just needs to sum the total amount of output charge of the SiPM and one can count the number of incident photons since each pixel will fire off a set amount of charge. Counting of the number of incident photons will give a measurement of the energy the particle deposited in the corresponding channel. There are some things that complicate the SiPMs readings. SiPMs are non-linear devices, meaning the total output charge of the SiPM does not necessarily increase linearly with the number of incident photons. In fact, experiments have shown that the number of incident photons vs. the SiPM output charge is more like a square root function rather than a straight line. At low incident photon count on the order of 1,000 photons the SiPM is very close to a linear device; however, as the incident number of photons increases the output charge does not increase at a steady rate. There are several factors that contribute to SiPM non-linearity but the two main ones are cross talk and saturation. Cross talk is when a pixel is activated by a photon there is a chance that this activated pixel could activate some of its neighboring pixels artificially increase the output charge of the SiPM. When the photon hits a pixel it excites an electron causing an electron cascade and charge to flow. This excited electron has a chance to emit an IR photon which could go in any direction. If it hits one of the neighboring pixels it could activate as if it were an incident photon. 
 
-Saturation occurs when a pixel is hit in rapid succession by multiple photons. When a pixel is hit by a photon it discharges its capacitor which is the source of its output charge. After the pixel fires it needs some time on the order of 10 nanoseconds to recharge its capacitor. If the pixel is hit it simply fires off whatever charge it has in its capacitor at the time, which could be reduced from its normal charge. Given that the SiPM has about 33,000 pixels on its pixel face, when the number of incident is on the order of 1000 this effect is insignificant, but particles can produce much more photons where this effect can be much more significant. The non-linear properties of the SiPM makes it a bit harder to get accurate measurements, but there are ways to study them which will allow us to compensate for these effects.
+Saturation occurs when a pixel is hit in rapid succession by multiple photons. When a pixel is hit by a photon it discharges its capacitor which is the source of its output charge. After the pixel fires it needs some time on the order of 10 nanoseconds to recharge its capacitor. If the pixel is hit it simply fires off whatever charge it has in its capacitor at the time, which could be reduced from its normal charge. Given that the SiPM has about 33,000 pixels on its pixel face, when the number of incident is on the order of 1000 the non-linearity is insignificant, but particles can produce much more photons where this effect can be much more significant. The non-linear properties of the SiPM makes it a bit harder to get accurate measurements, but there are ways to study them which will allow us to compensate for these effects.
 
 \begin{figure}
 \centering
