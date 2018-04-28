@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.9.8)  28 APR 2018 13:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.9.8)  28 APR 2018 13:49
 entering extended mode
 **./JohnThesis.tex
 (JohnThesis.tex
@@ -723,7 +723,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
 Here is how much of TeX's memory you used:
  8570 strings out of 493333
  128566 string characters out of 3139195
- 331680 words of memory out of 3000000
+ 331679 words of memory out of 3000000
  11826 multiletter control sequences out of 15000+200000
  10502 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -733,7 +733,7 @@ Here is how much of TeX's memory you used:
 /fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on JohnThesis.pdf (53 pages, 3477381 bytes).
+Output written on JohnThesis.pdf (53 pages, 3477380 bytes).
 PDF statistics:
  1703 PDF objects out of 1728 (max. 8388607)
  115 named destinations out of 1000 (max. 500000)
